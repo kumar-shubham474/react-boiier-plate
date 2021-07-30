@@ -1,0 +1,15 @@
+.time-range {
+  height: 60px;
+  margin-right: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: rgb(135, 154, 216);
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(65, 4, 4);
+}
+
+.time-range:hover {
+  background: rgb(67, 99, 201);
+  transition: all 0.3s ease-in;
+}

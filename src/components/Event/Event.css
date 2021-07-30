@@ -1,0 +1,35 @@
+.event {
+    background: rgba(0, 120, 150, 0.5);
+    border: 2px solid black ;
+    font-weight: bold;
+
+}
+
+.duration {
+    display: none;
+}
+.event:hover{
+    transform: scale(1.09); 
+     transition: all 0.3s ease-in;
+    background: rgb(6, 60, 73);
+    color: white;
+    /* animation: scale 0.25 infinite alternate; */
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px grey;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.event:hover .duration {
+    display: inline;
+    cursor: pointer;
+    
+}
+
+.event:hover p {
+    font-size: 16px;
+}
+
+.event:hover .event-title {
+    display: none;
+}
